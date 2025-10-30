@@ -2,11 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
-# --- Dev CLIs ---
-brew "starship"
-brew "asdf"
-brew "neovim"
-brew "awscli"
+# Dev tools
 brew "git"
 brew "wget"
 brew "fd"
@@ -18,24 +14,37 @@ brew "tree"
 brew "openssl@3"
 brew "readline"
 brew "libpq"
+brew "mkcert"
 
-# --- Apps ---
+# Terminal utilities
+brew "starship"
+brew "zsh-autosuggestions"
+brew "zsh-completions"
+brew "zsh-syntax-highlighting"
+brew "neovim"
+brew "asdf"
+brew "awscli"
+
+# Fonts
+cask "font-commit-mono-nerd-font"
+
+# Apps
 cask "iterm2"
-cask "docker"
-cask "visual-studio-code"
+# cask "docker"
+# cask "visual-studio-code"
 
 # Browsers
-cask "google-chrome"
-cask "firefox"
+# cask "google-chrome"
+# cask "firefox"
 
 # Security
-cask "lulu"
-cask "1password"
-cask "clearvpn"
+# cask "lulu"
+# cask "1password"
+# cask "clearvpn"
 
 # Social / comms / media
-cask "discord"
-cask "spotify"
-cask "signal"
-cask "whatsapp"
-cask "cog"
+# cask "discord"
+# cask "spotify"
+# cask "signal"
+# cask "whatsapp"
+# cask "cog"
