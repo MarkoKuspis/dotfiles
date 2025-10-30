@@ -1,50 +1,8 @@
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/MarkoKuspis/dotfiles/main/bootstrap.sh)"
-
-Apps:
-  Dev:
-  zsh
-  Starship term
-  iTerm2
-  asdf
-  docker
-  Neovim
-  VS code
-  aws-cli
-
-  Sec:
-  Lulu
-  1Password
-  ClearVPN
-
-  Browsers:
-  Chrome
-  Firefox
-
-  Bullshit:
-  Discord
-  Spotify
-  Signal
-  Whatsapp
-  Cog
-
-Font: CommitMonoNerdFontMono-Regular.otf
-I also have starship.toml file
-
-my .zprofile:
-```
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-export LDFLAGS="-L/opt/homebrew/opt/curl/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/curl/include"
-```
-
-my .zshrc:
-```
 export PATH="$HOME/.asdf/shims:$PATH"
 . "$HOME/.asdf/asdf.sh"
 
 # bun completions
-[ -s "/Users/markokuspis/.bun/_bun" ] && source "/Users/markokuspis/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # flags necessary for Postgres ICU support
 export LDFLAGS="-L/opt/homebrew/opt/icu4c/lib"
@@ -68,4 +26,3 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(starship init zsh)"
 
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-```
