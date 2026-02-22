@@ -1,0 +1,25 @@
+# Shell
+command = /bin/zsh -l
+
+# Font
+font-family = JetBrainsMono Nerd Font
+font-style = Regular
+font-style-bold = Bold
+font-style-italic = Italic
+font-size = 14
+adjust-cell-height = 1
+
+# Window
+window-padding-x = 10
+window-padding-y = 10
+window-decoration = auto
+background-opacity = 0.9
+
+# Cursor
+cursor-style = block
+
+# Scrollback
+scrollback-limit = 10000
+
+# Theme
+theme = TokyoNight Night

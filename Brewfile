@@ -29,7 +29,7 @@ brew "awscli"
 cask "font-commit-mono-nerd-font"
 
 # Apps
-cask "iterm2"
+cask "ghostty"
 # cask "docker"
 # cask "visual-studio-code"
 
