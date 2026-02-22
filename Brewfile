@@ -17,7 +17,7 @@ brew "libpq"
 brew "mkcert"
 
 # Terminal utilities
-brew "starship"
+brew "spaceship"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
